@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\imgui">
+      <UniqueIdentifier>{a3ead98b-3d9c-4d80-8897-be4ebb1c540f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\imgui\backends">
+      <UniqueIdentifier>{29a75207-8903-4330-90a6-2aef03c1938b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\imgui">
+      <UniqueIdentifier>{ee25de46-3d64-49c6-9170-b5539d68dfa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\imgui\backends">
+      <UniqueIdentifier>{8d2e6b44-a1b9-4b3c-a309-f6c56e69dda0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cimgui">
+      <UniqueIdentifier>{c331411e-f491-4a63-8987-da1c9a409736}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cimgui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cimgui_backend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cimgui\imgui\backends\imgui_impl_glfw.h">
+      <Filter>头文件\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cimgui\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>头文件\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cimgui\imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>头文件\imgui\backends</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cimgui_backend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cimgui\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>源文件\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cimgui\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>源文件\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cimgui\imgui\imgui.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cimgui\imgui\imgui_demo.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cimgui\imgui\imgui_draw.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cimgui\imgui\imgui_tables.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cimgui\imgui\imgui_widgets.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cimgui\cimgui.cpp">
+      <Filter>源文件\cimgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
